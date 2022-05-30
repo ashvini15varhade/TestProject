@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-OrangeHRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest-OrangeHRM(failed)">
+    <parameter name="browser" value="FirefoxBrowser"/>
+    <classes>
+      <class name="tests.Gyama">
+        <methods>
+          <include name="verifyAdmin"/>
+          <include name="verifyRecruitmentTab"/>
+          <include name="logoutFromOrangeHRM"/>
+          <include name="loginToOrangeHRM"/>
+          <include name="clearPOMobject"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- tests.Gyama -->
+    </classes>
+  </test> <!-- FirefoxTest-OrangeHRM(failed) -->
+</suite> <!-- Failed suite [Suite-OrangeHRM] -->

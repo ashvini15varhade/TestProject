@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRMSuite" thread-count="2" parallel = "tests">
+  <test  name="OrangeHRMTest">
+  <parameter name = "browser" value = "ChromeBrowser"/>
+    <classes>
+    
+      <class name="tests.Gyama"/>
+    </classes>
+  </test> <!-- OrangeHRMTest -->
+  
+  <test  name="OrangeHRMTest1">
+  <parameter name = "browser" value = "FirefoxBrowser"/>
+    <classes>
+    
+      <class name="tests.Gyama"/>
+    </classes>
+  </test> <!-- OrangeHRMTest1-->
+  
+</suite> <!-- OrangeHRMSuite -->
